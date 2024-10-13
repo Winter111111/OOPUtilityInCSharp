@@ -1,6 +1,9 @@
 ﻿
+using OOPUtilityInCSharp.AbstractClassInCSharp;
 using OOPUtilityInCSharp.ClassesInCSharp;
+using OOPUtilityInCSharp.EncapsulationInCSharp;
 using OOPUtilityInCSharp.InheritanceInCSharp;
+using OOPUtilityInCSharp.NameSpaceInCSharp;
 using OOPUtilityInCSharp.PolymorphismInCSharp;
 
 #region Main Entry Point Of Class
@@ -49,3 +52,40 @@ Console.WriteLine("\n-----End Method Overriding----- \n");
 
 Console.WriteLine("\n----------End OOP code about Polymorhism---------- \n");
 #endregion
+
+#region Main Entry Point Of Namespace
+
+Console.WriteLine("----------Start NameSpace In OOP---------- \n");
+
+NamespaceEntryPoint csharpNameSpace = new NamespaceEntryPoint();
+csharpNameSpace.ExecuteNameSapce();
+
+Console.WriteLine("\n----------End NameSpace IN OOP---------- \n");
+
+#endregion
+
+#region Main Entry Point Of Encapsulation
+
+Console.WriteLine("----------Start Encapsulation In OOP---------- \n");
+
+EncapsulationEntryPoint csharpEncapsulation = new EncapsulationEntryPoint();
+csharpEncapsulation.ExecuteEncapsulation();
+
+Console.WriteLine("\n----------End Encapsulation IN OOP---------- \n");
+
+#endregion
+
+
+#region Main Entry Point Of Abstract Class
+
+Console.WriteLine("----------Start Abstract Class In OOP---------- \n");
+
+AbstractClassEntryPoint csharpAbstractClass = new AbstractClassEntryPoint();
+csharpAbstractClass.ExecuteAbstractClass();
+
+Console.WriteLine("\n----------End Abstract Class IN OOP---------- \n");
+
+#endregion
+
+
+
