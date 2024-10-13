@@ -1,4 +1,4 @@
-﻿namespace OOPUtilityInCSharp
+﻿namespace OOPUtilityInCSharp.ClassesInCSharp
 {
 	public class ClassesInCSharp
 	{
@@ -43,6 +43,23 @@
 			bool fieldIsInMarket = StaticFruitClass.GetFruitIsInSeason();
 
 			Console.WriteLine("Fruit name: " + fieldName + " Fruit price:" + fieldPrice + " Is available in market :" + fieldIsInMarket);
+
+			#endregion
+		}
+
+		public void ExecuteSealedClass()
+		{
+			#region Sealed Class Execution
+
+			Fruit objfruit;
+			objfruit = new Fruit();
+			objfruit.Taste();
+			objfruit.Color();
+			objfruit = new WaterMelon();
+			objfruit.Taste();
+			objfruit.Color();
+			objfruit = new SweetWater();
+			objfruit.Color();
 
 			#endregion
 		}
