@@ -43,6 +43,7 @@ namespace OOPUtilityInCSharp.PolymorphismInCSharp
 			objfruit = new WaterMelon();
 
 			objfruit.Taste();
+			objfruit.GetFruit("Orange");
 
 			objfruit = new Mango();
 
