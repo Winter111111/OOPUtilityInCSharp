@@ -1,7 +1,21 @@
 ﻿
 using OOPUtilityInCSharp.ClassesInCSharp;
+using OOPUtilityInCSharp.InheritanceInCSharp;
 
-ClassesInCSharp csharpCode = new ClassesInCSharp();
-csharpCode.ExecuteSimpleClass();
-csharpCode.ExecuteStaticClass();
-csharpCode.ExecuteSealedClass();
+#region MainEntryPointOfClass
+	ClassesEntryPoint csharpClassCode = new ClassesEntryPoint();
+	csharpClassCode.ExecuteSimpleClass();
+	csharpClassCode.ExecuteStaticClass();
+	csharpClassCode.ExecuteSealedClass();
+#endregion
+
+#region MainEntryPointOfInheritance
+	InheritanceEntryPoint csharpInheritCode = new InheritanceEntryPoint();
+	HybridInheritanceEntryPoint csharpHybridCode = new HybridInheritanceEntryPoint();
+
+	csharpInheritCode.ExecuteSingleInheritance();
+	csharpInheritCode.ExecuteMultilevelInheritance();
+	csharpInheritCode.ExecuteHierarchicalInheritance();
+	csharpInheritCode.ExecuteMultipleInheritance();
+	csharpHybridCode.ExecuteHybridInheritance();
+#endregion

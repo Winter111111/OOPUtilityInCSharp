@@ -1,6 +1,6 @@
 ﻿namespace OOPUtilityInCSharp.ClassesInCSharp
 {
-	public class ClassesInCSharp
+	public class ClassesEntryPoint
 	{
 		public void ExecuteSimpleClass()
 		{
