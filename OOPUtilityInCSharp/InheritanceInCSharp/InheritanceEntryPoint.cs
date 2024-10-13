@@ -7,9 +7,9 @@ using OOPUtilityInCSharp.InheritanceInCSharp.MultipleInheritance;
 
 namespace OOPUtilityInCSharp.InheritanceInCSharp
 {
-	public class InheritanceEntryPoint
+	internal class InheritanceEntryPoint
 	{
-		public void ExecuteSingleInheritance()
+		internal void ExecuteSingleInheritance()
 		{
 			#region Simple Class Execution
 
@@ -26,7 +26,7 @@ namespace OOPUtilityInCSharp.InheritanceInCSharp
 			#endregion
 		}
 
-		public void ExecuteMultilevelInheritance()
+		internal void ExecuteMultilevelInheritance()
 		{
 			#region Simple Class Execution
 
@@ -41,7 +41,7 @@ namespace OOPUtilityInCSharp.InheritanceInCSharp
 			#endregion
 		}
 
-		public void ExecuteHierarchicalInheritance()
+		internal void ExecuteHierarchicalInheritance()
 		{
 			#region Simple Class Execution
 
@@ -56,7 +56,7 @@ namespace OOPUtilityInCSharp.InheritanceInCSharp
 			#endregion
 		}
 
-		public void ExecuteMultipleInheritance()
+		internal void ExecuteMultipleInheritance()
 		{
 			#region Simple Class Execution
 

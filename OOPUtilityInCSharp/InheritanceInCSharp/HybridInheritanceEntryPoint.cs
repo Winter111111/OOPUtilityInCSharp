@@ -4,7 +4,7 @@ namespace OOPUtilityInCSharp.InheritanceInCSharp
 {
 	internal class HybridInheritanceEntryPoint
 	{
-		public void ExecuteHybridInheritance()
+		internal void ExecuteHybridInheritance()
 		{
 			#region Simple Class Execution
 

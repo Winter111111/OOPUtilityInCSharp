@@ -1,8 +1,8 @@
 ﻿namespace OOPUtilityInCSharp.ClassesInCSharp
 {
-	public class ClassesEntryPoint
+	internal class ClassesEntryPoint
 	{
-		public void ExecuteSimpleClass()
+		internal void ExecuteSimpleClass()
 		{
 			#region Simple Class Execution
 
@@ -25,7 +25,7 @@
 			#endregion
 		}
 
-		public void ExecuteStaticClass()
+		internal void ExecuteStaticClass()
 		{
 			#region Static Class Execution
 
@@ -47,7 +47,7 @@
 			#endregion
 		}
 
-		public void ExecuteSealedClass()
+		internal void ExecuteSealedClass()
 		{
 			#region Sealed Class Execution
 
