@@ -11,11 +11,11 @@ namespace OOPUtilityInCSharp.EncapsulationInCSharp
 
 			fruit.FruitName = "Mango";
 
-			fruit.FruitPrice = 100;
+			fruit.FruitPrice = 6;
 
 			Console.WriteLine("Fruit Name is = {0}", fruit.FruitName);
 
-			Console.WriteLine("Fruit Price is = {0}", fruit.FruitPrice);
+			Console.WriteLine("Fruit Price is = {0}$", fruit.FruitPrice);
 
 			#endregion
 		}

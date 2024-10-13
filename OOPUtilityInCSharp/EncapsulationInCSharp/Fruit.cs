@@ -11,17 +11,20 @@ namespace OOPUtilityInCSharp.EncapsulationInCSharp
 	{
 		internal string? fruitName;
 		internal int fruitPrice;
-		
+
 		//FruitName and FruitPrice Properties
+
 		internal string? FruitName
 		{
-			get { return fruitName; }
-			set { fruitName = value; }
+			get => fruitName;
+			set => fruitName = value;
 		}
+
 		internal int FruitPrice
 		{
-			get { return fruitPrice; }
-			set { fruitPrice = value; }
+			get => fruitPrice;
+			set => fruitPrice = value;
 		}
+
 	}
 }
