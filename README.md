@@ -1,7 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta name="google-site-verification" content="uZq-Afnefgjvtnio4q8XjEmQtP7FPhB72LzQ_iYBLqM" />
 </head>
-<h1>Object Oriented Programming</h1> 
+<body>
+<h1>Object Oriented Programming in C#</h1> 
 <h2>Class</h2>
 <p>A class is basic pillar of OOP that is called when instance of a class is created. A class can have fields, properties, method, constructor and destructor etc. When we create an instance of class. This instance of class is used to access of fields, methods, properties, constructor (constructor can zero argument or multiple argument) and destructor. A class is reference type and stores in heap.</p>
 <h2>Static Class</h2>
@@ -23,3 +26,5 @@
 <h2>Encapsulation</h2>
 <p>When you have such type of data in which you need the grouping of related operation into single unit, You can use encapsulation. Access modifier (such as Private, Public, Protected, Interval etc.) can be used for achieving the encapsulation. The encapsulation is used most commonly for data hiding.</p>
 <p style="font-weight: bold;">Source: <a href="https://c-sharptutorial.com">https://c-sharptutorial.com</a></p>
+</body>
+</html>
